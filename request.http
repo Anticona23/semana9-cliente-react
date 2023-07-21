@@ -1,0 +1,12 @@
+@server = https://anticona23-bug-free-space-umbrella-rj5476q4ppx3x6wq-8080.preview.app.github.dev
+###
+
+GET {{server}}/api/employees
+
+###
+
+POST {{server}}/api/employees
+Content-Type: application/json
+
+{"firstName": "Cristian", "lastName": "Anticona", "description": "Developer"}
+

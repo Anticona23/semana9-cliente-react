@@ -4,7 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
     
-    @Component 
+@Component 
 public class DatabaseLoader implements CommandLineRunner { 
 
 	private final EmployeeRepository repository;
@@ -19,5 +19,3 @@ public class DatabaseLoader implements CommandLineRunner {
 		this.repository.save(new Employee("Frodo", "Baggins", "ring bearer"));
 	}
 }
-
-
